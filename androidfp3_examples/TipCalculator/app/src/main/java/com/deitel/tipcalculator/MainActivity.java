@@ -2,16 +2,17 @@
 // Calculates a bill total based on a tip percentage
 package com.deitel.tipcalculator;
 
-import android.os.Bundle; // for saving state information
-import android.support.v7.app.AppCompatActivity; // base class
-import android.text.Editable; // for EditText event handling
-import android.text.TextWatcher; // EditText listener
-import android.widget.EditText; // for bill amount input
-import android.widget.SeekBar; // for changing the tip percentage
-import android.widget.SeekBar.OnSeekBarChangeListener; // SeekBar listener
-import android.widget.TextView; // for displaying text
+import android.os.Bundle;
+import android.text.Editable;
+import android.text.TextWatcher;
+import android.widget.EditText;
+import android.widget.SeekBar;
+import android.widget.SeekBar.OnSeekBarChangeListener;
+import android.widget.TextView;
 
-import java.text.NumberFormat; // for currency formatting
+import androidx.appcompat.app.AppCompatActivity;
+
+import java.text.NumberFormat;
 
 // MainActivity class for the Tip Calculator app
 public class MainActivity extends AppCompatActivity {
